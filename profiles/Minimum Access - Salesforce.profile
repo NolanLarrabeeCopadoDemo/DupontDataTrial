@@ -2844,6 +2844,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Ext_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.AnnualRevenue</field>
         <readable>false</readable>
@@ -3476,6 +3481,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Email</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.External_Phone_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9892,6 +9902,9 @@
     <layoutAssignments>
         <layout>ContactPointPhone-Contact Point Phone Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProcessException-Process Exception Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>SelectInspectionPage</apexPage>
         <enabled>false</enabled>
@@ -11314,6 +11327,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Pricebook2</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ProcessException</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
