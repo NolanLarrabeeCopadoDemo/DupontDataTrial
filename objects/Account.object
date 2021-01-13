@@ -293,6 +293,30 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PIcklist_status__c</fullName>
+        <externalId>false</externalId>
+        <label>PIcklist status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Hierarchy</type>
